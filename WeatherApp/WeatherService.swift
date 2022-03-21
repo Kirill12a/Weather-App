@@ -58,6 +58,8 @@ extension WeatherService: CLLocationManagerDelegate
   }
 }
 
+
+
 struct APIResponse: Decodable
 {
   let name: String
@@ -74,11 +76,12 @@ struct APIMain: Decodable
 struct ApiWeather: Decodable
 {
   let description: String
-  let iconName: String
+  let icon: String
 
   enum CodingKeys: String, CodingKey
   {
     case description
-    case iconName = "main"
+    case icon = "main"
   }
 }
+
