@@ -14,6 +14,7 @@
 		D2E18C2027E7C45F00A89676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E18C1F27E7C45F00A89676 /* Assets.xcassets */; };
 		D2E18C2327E7C45F00A89676 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E18C2227E7C45F00A89676 /* Preview Assets.xcassets */; };
 		D2E18C2A27E7C69E00A89676 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E18C2927E7C69E00A89676 /* WeatherService.swift */; };
+		D2F030D027E90AD50003F82C /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F030CF27E90AD50003F82C /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D2E18C1F27E7C45F00A89676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2E18C2227E7C45F00A89676 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D2E18C2927E7C69E00A89676 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		D2F030CF27E90AD50003F82C /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				D2E18C1D27E7C45D00A89676 /* WeatherView.swift */,
 				D2E18C2927E7C69E00A89676 /* WeatherService.swift */,
 				D2C4A4BF27E7CE85006E53C9 /* WeatherViewModel.swift */,
+				D2F030CF27E90AD50003F82C /* DataModel.swift */,
 				D2E18C1F27E7C45F00A89676 /* Assets.xcassets */,
 				D2E18C2127E7C45F00A89676 /* Preview Content */,
 			);
@@ -153,6 +156,7 @@
 				D2E18C1E27E7C45D00A89676 /* WeatherView.swift in Sources */,
 				D2E18C2A27E7C69E00A89676 /* WeatherService.swift in Sources */,
 				D2E18C1C27E7C45D00A89676 /* WeatherAppApp.swift in Sources */,
+				D2F030D027E90AD50003F82C /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
